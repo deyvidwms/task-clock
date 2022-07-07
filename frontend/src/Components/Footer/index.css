@@ -23,3 +23,10 @@
   margin: 0 5px;
   color: #ff4d6d;
 }
+
+.footer > .footer--desenvolvido-por > a {
+  font-weight: bold;
+  color: #FFF;
+  text-decoration: none;
+  margin-left: 5px;
+}
