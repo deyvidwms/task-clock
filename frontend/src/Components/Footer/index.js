@@ -6,7 +6,7 @@ import './index.css';
 function Footer() {
   return (
     <footer className='footer'>
-      <p>Desenvolvido com <FaHeart /> por Deyvid.dev</p>
+      <p className='footer--desenvolvido-por'>Desenvolvido com <FaHeart /> por Deyvid.dev</p>
     </footer>
   );
 }
