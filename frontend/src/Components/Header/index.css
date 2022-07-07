@@ -1,0 +1,34 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  
+  padding: 10px 50px;
+  background-color: #199e41;
+}
+
+.header > .title {
+  font-family: 'Montserrat';
+  font-size: 2rem;
+  font-weight: 900;
+  color: #FFF;
+}
+
+.header > .header--options > .options--add-task {
+  background-color: #6bea5d;
+  padding: 10px;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all ease 0.3s;
+}
+
+.header > .header--options > .options--add-task:hover {
+  background-color: #60e151;
+}
+
+.header > .header--options > .options--add-task > svg {
+  display: flex;
+  align-items: center;
+  color: #FFF;
+}
