@@ -60,16 +60,16 @@
   color: #FFF;
 }
 
-.header > .header--menu > .options--add-task > p {
+.header > .header--menu > div > p {
   font-family: 'Inter';
   font-size: 1rem;
 
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: flex-start;
   align-items: center;
 }
 
-.header > .header--menu > .options--add-task > p > svg {
+.header > .header--menu > div > p > svg {
   margin-right: 5px;
 }

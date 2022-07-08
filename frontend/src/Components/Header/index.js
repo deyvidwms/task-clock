@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 
 import { FaBars, FaPlus, FaTimes } from "react-icons/fa";
+import { GiTomato } from "react-icons/gi";
+
 
 import './index.css';
 
@@ -27,6 +29,9 @@ function Header() {
       <div className={toggleMenu ? "header--menu" : "header--menu active"}>
         <div className="options--add-task">
           <p> <FaPlus /> Nova tarefa </p>
+        </div>
+        <div className="options--pomodoro">
+          <p> <GiTomato /> Pomodoro </p>
         </div>
       </div>
 
