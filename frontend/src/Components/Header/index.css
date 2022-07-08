@@ -15,7 +15,7 @@
   color: #FFF;
 }
 
-.header > .header--options > .options--add-task {
+.header > .header--button-menu > .button-menu {
   background-color: #6bea5d;
   padding: 10px;
   border-radius: 50px;
@@ -23,12 +23,53 @@
   transition: all ease 0.3s;
 }
 
-.header > .header--options > .options--add-task:hover {
+.header > .header--button-menu > .button-menu:hover {
   background-color: #60e151;
 }
 
-.header > .header--options > .options--add-task > svg {
+.header > .header--button-menu > .button-menu > svg {
   display: flex;
   align-items: center;
   color: #FFF;
+}
+
+.header > .header--menu {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 10px 0;
+  background: #FFF;
+  border-radius: 6px 0 0 6px;
+  box-shadow: 0 0 10px rgb(127 127 127 / 80%);
+  transform: translate(200px, 55px);
+  transition: all ease 0.3s;
+}
+
+.header > .header--menu.active {
+  transform: translate(0px, 55px);
+}
+
+.header > .header--menu > div {
+  padding: 10px;
+  cursor: pointer;
+  transition: all ease 0.3s;
+}
+
+.header > .header--menu > div:hover {
+  background-color: #199e41;
+  color: #FFF;
+}
+
+.header > .header--menu > .options--add-task > p {
+  font-family: 'Inter';
+  font-size: 1rem;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header > .header--menu > .options--add-task > p > svg {
+  margin-right: 5px;
 }
