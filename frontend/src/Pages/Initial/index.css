@@ -1,0 +1,70 @@
+body {
+  overflow-x: hidden;
+}
+
+.content {
+  width: 100vw;
+  background-color: #dbdbdb;
+}
+
+.content > .content--row {
+  display: flex;
+  flex-direction: row;
+}
+
+.content > .content--row > .row--column {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  width: 100%;
+  padding: 100px 0;
+}
+
+.content > .content--row > .row--column.clock > .clock--card {
+  padding: 50px;
+  width: 50%;
+  box-shadow: 0 0 20px rgb(0 0 0 / 45%);
+  background: #FFF;
+  border-radius: 4px;
+  margin-bottom: 20px;
+}
+
+.content > .content--row > .row--column.clock > .clock--card > h1 {
+  font-family: 'Montserrat';
+  font-size: 9rem;
+  text-align: center;
+}
+
+.content > .content--row > .row--column.clock > .clock--start-counting > button {
+  font-family: 'Inter';
+  font-size: 1rem;
+  text-transform: uppercase;
+  color: #FFF;
+
+  padding: 16px 30px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+
+  border: none;
+  background-color: #0a991b;
+
+  cursor: pointer;
+  transition: all ease 0.3s;
+}
+
+.content > .content--row > .row--column.clock > .clock--start-counting > button:hover,
+.content > .content--row > .row--column.clock > .clock--start-counting > button:focus {
+  opacity: 0.9;
+}
+
+.content > .content--row > .row--column.clock > .clock--start-counting > button > svg {
+  margin-left: 10px;
+}
+
+.content > .content--row > .row--column.task {
+  width: 50%;
+}
